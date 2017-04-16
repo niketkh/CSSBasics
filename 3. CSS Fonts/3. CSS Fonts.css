@@ -1,0 +1,44 @@
+/*font-family*/
+
+p {
+	font-family: Arial;
+}
+
+/*font-size*/
+
+p {
+	font-size: 30px;
+}
+
+/* Twice the font-size of parent */
+span {
+	font-size: 2em;
+}
+
+/*font-weight*/
+
+p {
+	font-weight: bold;
+}
+
+/*line-height*/
+
+p {
+	line-height: 2
+}
+
+/*text-align*/
+
+p {
+	text-align: left;
+}
+
+/*text-decoration*/
+
+p {
+	text-decoration: underline;
+}
+
+span {
+	text-decoration: line-through;
+}

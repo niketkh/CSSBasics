@@ -1,0 +1,65 @@
+ /* Element Selector */
+h1 {
+	color: red;
+}
+
+/* Class Selector */
+.myClass {
+	color: blue;
+}
+
+/* Id Selector */
+#myDiv {
+	color: green;
+}
+
+/* Star Selector */
+/* Applies to everything */
+* {
+	margin: 0;
+	padding: 0;
+}
+/* Every single element that is child of #container div */
+#container * {
+ border: 1px solid black;
+}
+
+/* Descendant Selector */
+/* All a tags that are nested inside li tags */
+li a {
+	color: yellow;
+}
+
+/* Adjacent Selector */ 
+/* All ul tags that are adjacent to h4 tag */
+h4 + ul {
+	border: 4px solid red;
+}
+
+/* Attribute Selector */
+/* All a tags with links to google.com */
+a[href="http://www.google.com"] {
+	background: orange;
+}
+/* All input tags with type text */
+input[type="text"] {
+	background: green;
+}
+
+/* Nth of type */
+/* select 3rd ul tags on the page */
+ul:nth-of-type(3){
+	background: purple;
+}
+
+/* X:visited and X:link */
+/* :link pseudo-class targets all anchor tags which are yet to be clicked */
+a:link {color: red;}
+/* :visited pseudo-class targets all anchor tags which have been clicked */
+a:visited {color: purple;}
+
+/* Direct Descendant Selector */
+/* All ul tags which are direct children of div with an id of container */
+div#container > ul {
+  border: 1px solid black;
+}

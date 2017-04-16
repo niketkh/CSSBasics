@@ -1,0 +1,50 @@
+/* Specificity In Order of Magnitude */
+
+/* Type Selectors: Least Specific */
+
+/* Specificity: 1 */
+li {
+
+}
+
+/* Specificity: 2 */
+li a {
+
+}
+
+/* Specificity: 2 */
+li + a {
+
+}
+
+/* Class, Attribute and Pseudo-Class Selectors */
+
+/* Specificity: 10 */
+.hello {
+
+}
+
+/* Specificity: 11 */
+input[type="text"] {
+
+}
+
+/* Specificity: 11 */
+a:hover {
+	color: green;
+}
+
+/* ID Selector : Most specific in external style sheets */
+
+/* Specificity: 100 */
+#container {
+	color: blue;
+}
+
+
+
+/* Inline Styles have highest Specificity */
+/* Specificity: 1000 */
+
+/* Using !important overrides other CSS */
+/* Using !important is a bad practice */
